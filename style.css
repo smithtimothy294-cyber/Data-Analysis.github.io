@@ -13,3 +13,12 @@ h1 {
 h2 {
     margin-top: 40px;
 }
+
+nav {
+    margin-bottom: 40px;
+}
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+}
