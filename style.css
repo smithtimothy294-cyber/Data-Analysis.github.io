@@ -33,3 +33,12 @@ nav a {
 .project-card h3 {
     margin-top: 0;
 }
+
+.project-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 14px;
+    border: 1px solid #333;
+    border-radius: 6px;
+    text-decoration: none;
+}
