@@ -87,4 +87,26 @@ section {
     border-top: 1px solid #ddd;
 }
 
+.analysis-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
 
+.analysis-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.analysis-item h3 {
+    margin-top: 0;
+}
+
+@media (max-width: 700px) {
+    .analysis-grid {
+        grid-template-columns: 1fr;
+    }
+}
