@@ -110,3 +110,34 @@ section {
         grid-template-columns: 1fr;
     }
 }
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+}
+
+.contact-form label {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    border: none;
+    cursor: pointer;
+    align-self: flex-start;
+}
