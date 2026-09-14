@@ -55,6 +55,15 @@ nav a:hover {
     margin-top: 0;
 }
 
+.project-card h4 {
+    margin-bottom: 5px;
+    margin-top: 22px;
+}
+
+.project-card h4 + p {
+    margin-top: 0;
+}
+
 .project-link {
     display: inline-block;
     margin-top: 10px;
