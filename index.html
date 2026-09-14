@@ -25,27 +25,53 @@
         <h2>Projects</h2>
 
         <div class="project-card">
+
             <h3>Foundational Diagnostic Report</h3>
-                <img
-                    src="images/diagnostic-preview.png"
-                    alt="Preview of the Foundational Diagnostic Report"
-                    class="project-image">
+        
+            <img
+                src="images/diagnostic-preview.png"
+                alt="Preview of the Foundational Diagnostic Report"
+                class="project-image">
+        
             <p>
-                A Python-based analysis tool designed to provide a clear,
-                plain-language overview of time-series data using descriptive
-                statistics, distributions, trend analysis, and cyclicity measures.
+                A Python-based diagnostic tool designed to provide a clear,
+                plain-language overview of time-series data before deeper
+                analysis or forecasting.
             </p>
-                <a class="project-link"
-                   href="reports/Diagnostic_report_Daily_Doerun_Temp.pdf"
-                   target="_blank">
-                    View Sample Report
-                </a>
-                <p class="project-tools">
-                    Python • pandas • SciPy • Matplotlib
-                </p>
+        
+            <h4>Example Dataset</h4>
             <p>
-                <strong>Status:</strong> Ongoing development
+                Daily average temperature observations from Doerun, Georgia
+                are used here to demonstrate the analysis on a naturally
+                variable and seasonal time series.
             </p>
+        
+            <h4>What It Examines</h4>
+            <p>
+                The report evaluates summary statistics, outliers, trend
+                behavior, distributional structure, autocorrelation,
+                periodicity, and changes in local variability.
+            </p>
+        
+            <h4>Example Findings</h4>
+            <p>
+                The example demonstrates strong short-term persistence,
+                seasonal structure, changing local variability, and the
+                importance of interpreting spectral results carefully.
+            </p>
+        
+            <p class="project-tools">
+                Python • pandas • SciPy • Matplotlib
+            </p>
+        
+            <a class="project-link"
+               href="reports/Diagnostic_report_Daily_Doerun_Temp.pdf"
+               target="_blank">
+                View Sample Report
+            </a>
+        
+            <p><strong>Status:</strong> Ongoing development</p>
+        
         </div>
     </section>
 
