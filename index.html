@@ -126,17 +126,44 @@
     </section>
 
     <section id="contact">
-        <h2>Contact</h2>
-        
+        <h2>Contact Me</h2>
+    
         <p>
-        You can find my projects and code on GitHub.
+            If you would like to contact me about my projects,
+            data analysis, or other opportunities, feel free to send a message below.
         </p>
-
-        <a class="project-link"
-           href="https://github.com/YOUR-USERNAME"
-           target="_blank">
-            Visit GitHub
-        </a>
+    
+        <form
+            action="https://formspree.io/f/xppzgoek"
+            method="POST"
+            class="contact-form">
+    
+            <label for="name">Name</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                required>
+    
+            <label for="email">Your Email</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                required>
+    
+            <label for="message">Message</label>
+            <textarea
+                id="message"
+                name="message"
+                rows="6"
+                required></textarea>
+    
+            <button type="submit" class="project-link">
+                Send Message
+            </button>
+    
+        </form>
     </section>
     
 
